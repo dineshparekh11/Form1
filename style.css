@@ -1,0 +1,67 @@
+h1{
+    align:center;
+    font-family:Time od;
+  }
+  body{
+    background: #50a5;
+    display:grid;
+    font-family:Arial;
+    image:grid;
+   
+  }
+    p{
+      background:Red;
+    }
+  div{
+    background:blue;
+  }
+   
+  img{
+    height:200px;
+    width:500px;
+    
+  }
+  h1{ 
+      fontstyle:italic;
+      background: yellow;
+      align:center;
+  }
+  h4
+  {
+    
+      background:Red;
+    
+  }
+  h5{
+    size:400px;
+    background:green;
+  }
+  blink {
+    -webkit-animation: 1s linear infinite condemned_blink_effect; /* for Safari 4.0 - 8.0 */
+    animation: 1s linear infinite condemned_blink_effect;
+  }
+  
+  /* for Safari 4.0 - 8.0 */
+  @-webkit-keyframes condemned_blink_effect {
+    0% {
+      visibility: hidden;
+    }
+    50% {
+      visibility: hidden;
+    }
+    100% {
+      visibility: visible;
+    }
+  }
+  
+  @keyframes condemned_blink_effect {
+    0% {
+      visibility: hidden;
+    }
+    50% {
+      visibility: hidden;
+    }
+    100% {
+      visibility: visible;
+    }
+  }
